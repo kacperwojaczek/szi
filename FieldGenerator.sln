@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FieldGenerator", "FieldGenerator\FieldGenerator.csproj", "{CDC93B4E-05E9-4A4A-8433-5F7529E35141}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PublishScripts", "PublishScripts", "{4F9498E0-7C25-4774-ADB4-C9424F93D749}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Scripts", "Scripts", "{B726B417-5B98-4E72-A3B7-6B61C810D491}"
+	ProjectSection(SolutionItems) = preProject
+		PublishScripts\Scripts\Deploy-AzureResourceGroup.ps1 = PublishScripts\Scripts\Deploy-AzureResourceGroup.ps1
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Templates", "Templates", "{25CBE639-0A3F-4834-A6B1-610A82A07D44}"
+	ProjectSection(SolutionItems) = preProject
+		PublishScripts\Templates\FieldGenerator.json = PublishScripts\Templates\FieldGenerator.json
+		PublishScripts\Templates\FieldGenerator.param.dev.json = PublishScripts\Templates\FieldGenerator.param.dev.json
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CDC93B4E-05E9-4A4A-8433-5F7529E35141}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CDC93B4E-05E9-4A4A-8433-5F7529E35141}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CDC93B4E-05E9-4A4A-8433-5F7529E35141}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CDC93B4E-05E9-4A4A-8433-5F7529E35141}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B726B417-5B98-4E72-A3B7-6B61C810D491} = {4F9498E0-7C25-4774-ADB4-C9424F93D749}
+		{25CBE639-0A3F-4834-A6B1-610A82A07D44} = {4F9498E0-7C25-4774-ADB4-C9424F93D749}
+	EndGlobalSection
+EndGlobal

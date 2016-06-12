@@ -1,0 +1,29 @@
+{
+  "siteName": {
+    "value": "fieldgenerator"
+  },
+  "hostingPlanName": {
+    "value": "SZI"
+  },
+  "siteLocation": {
+    "value": "North Europe"
+  },
+  "sku": {
+    "value": "Free"
+  },
+  "workerSize": {
+    "value": "0"
+  },
+  "siteMode": {
+    "value": "Limited"
+  },
+  "computeMode": {
+    "value": "0"
+  },
+  "subscriptionId": {
+    "value": "15192503-6e31-4b0d-910d-d6adad8584e5"
+  },
+  "resourceGroup": {
+    "value": "SztucznaInteligencja"
+  }
+}
